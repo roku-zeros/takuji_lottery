@@ -23,7 +23,7 @@ const MyNavbar = () => {
 
 
     return (
-        <Navbar variant="dark" className='fixed-top'>
+        <Navbar variant="dark" className='fixed-top' style={{ backgroundColor: '#111111'}}>
             <Container>
                 <Navbar.Brand href="#home">
                     <img src={logo}/>

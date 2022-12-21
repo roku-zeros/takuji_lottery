@@ -18,9 +18,8 @@ const Welcome = () => {
                         Takuji lottery
                     </h1>
                     <span className={baseStyles.grey}>
-                        Takuji is a crypto-powered savings protocol
-                        based on Premium Bonds. Save money and have a
-                        chance to win every day.
+                        Takuji is a crypto lottery that was developed by HSE
+                        students. there is something interesting behind it...
                     </span>
                 </Col>
                 <Col lg={1}></Col>

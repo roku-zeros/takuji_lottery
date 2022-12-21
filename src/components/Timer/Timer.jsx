@@ -6,7 +6,7 @@ import baseStyles from '../../index.module.css'
 
 
 function Timer() {
-    const {contract} = useContract("0xFd24F711c939FDCA0439Ca72C218427118c0A839");
+    const {contract} = useContract("0x2d668f670C55071Cfc7A965cdAa3edD58f6B7f3c");
     const {data: expiration, isLoadingExpiration} = useContractRead(contract, "expiration")
 
     const render = ({hours, minutes, seconds, completed}) => {

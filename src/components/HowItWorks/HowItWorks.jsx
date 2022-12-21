@@ -27,11 +27,11 @@ const HowItWorks = () => {
                     </h3>
                     <br/>
                     <h3 className={baseStyles.white}>
-                        2. &nbsp; Prizes are awarded every day
+                        2. &nbsp; The lottery takes place every few hours
                     </h3>
                     <br/>
                     <h3 className={baseStyles.white}>
-                        3. &nbsp; Even if you don't win, keep all of your money!
+                        3. &nbsp; Even if you don't win, don't be upset :)
                     </h3>
                 </Col>
             </Row>

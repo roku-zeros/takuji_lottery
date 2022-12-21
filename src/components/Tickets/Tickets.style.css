@@ -1,0 +1,11 @@
+.last_winner {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    width: 100vw;
+    background-color: #212121 !important;
+}
+
+.last_winner span {
+    color: #b2b2b2;
+}
