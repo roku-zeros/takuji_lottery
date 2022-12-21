@@ -1,0 +1,52 @@
+.black {
+    color: #000000 !important;
+}
+
+.grey {
+    color: rgba(187, 187, 187, 0.67) !important;
+}
+
+.white {
+    color: #FFFFFF !important;
+}
+
+.btn_outline {
+    background-color: rgba(0, 0, 0, 0%) !important;
+    border: 1px solid #FFFFFF !important;
+}
+
+.my_wrapper {
+    border: 1px solid #c4c4c4;
+    border-radius: 32px;
+    padding: 20px 40px !important;
+    margin: 12px;
+}
+
+.my_wrapper2 {
+    border: 1px solid rgba(187, 187, 187, 0.67);
+    border-radius: 16px;
+    padding: 10px 20px;
+    margin: 12px;
+}
+
+.my_input {
+    width: 100%;
+    background-color: rgba(0,0,0,0%);
+    border: 1px solid rgba(187, 187, 187, 0.67);
+    border-radius: 16px;
+    padding: 10px 20px;
+    margin: -12px 0 12px;
+    color: #FFFFFF;
+}
+
+.width_btn {
+    width: 100%;
+    text-align: center;
+}
+
+.my_centered {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}

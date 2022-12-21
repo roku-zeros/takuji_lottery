@@ -1,0 +1,18 @@
+.jp_wrapper {
+    background: no-repeat url("../../assets/images/background.png");
+    background-size: 100%;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 32px;
+}
+
+.welcome_wrapper {
+
+}
+
+/* PC and Fablet version */
+@media (min-width: 576px) {
+    .welcome_wrapper {
+        padding-top: 100px;
+    }
+}

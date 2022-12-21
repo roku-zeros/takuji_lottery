@@ -1,0 +1,40 @@
+.navigation {
+    margin: 0;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0)
+}
+
+/* Phone version */
+@media (min-width: 0px) and (max-width: 576px) {
+    .navigation {
+        position: fixed;
+        bottom: 0 !important;
+        border-top: 1px solid #FFFFFF;
+        padding: 10px;
+        background-color: #111111;
+        border-radius: 12px 12px 0 0;
+    }
+}
+
+.navigation a {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.navigation a:hover {
+    font-size: 1.5rem;
+    color: #c4c4c4;
+    text-decoration: underline;
+    margin: 20px;
+}
+
+.address {
+    display: block;
+    width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

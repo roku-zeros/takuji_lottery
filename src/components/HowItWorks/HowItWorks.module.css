@@ -1,0 +1,10 @@
+/* PC and Fablet version */
+@media (min-width: 576px) {
+    .hiw_wrapper {
+        padding-top: 100px;
+    }
+}
+
+img {
+    width: 100%;
+}

@@ -5,9 +5,79 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000000 !important;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Phone version */
+@media (min-width: 0px) and (max-width: 576px) {
+  h1 {
+    font-size: 26px !important;
+    font-weight: 600 !important;
+  }
+
+  h2 {
+    font-size: 22px !important;
+    font-weight: 500 !important;
+  }
+
+  h3 {
+    font-size: 18px !important;
+    font-weight: 400 !important;
+  }
+
+  p, a, span {
+    font-size: 14px !important;;
+    font-weight: 400 !important;;
+  }
+}
+
+/* Fabled version */
+@media (min-width: 576px) and (max-width: 1630px) {
+  h1 {
+    font-size: 62px !important;
+    font-weight: 700 !important;;
+  }
+
+  h2 {
+    font-size: 42px !important;
+    font-weight: 600 !important;
+  }
+
+  h3 {
+    font-size: 24px !important;
+    font-weight: 500 !important;
+  }
+
+  p, a, span {
+    font-size: 16px !important;;
+    font-weight: 500 !important;;
+  }
+}
+
+/* PC version */
+@media (min-width: 1630px) {
+  h1 {
+    font-size: 80px !important;
+    font-weight: 700 !important;;
+  }
+
+  h2 {
+    font-size: 48px !important;
+    font-weight: 600 !important;
+  }
+
+  h3 {
+    font-size: 32px !important;
+    font-weight: 500 !important;
+  }
+
+  p, span, a {
+    font-size: 18px !important;;
+    font-weight: 500 !important;;
+  }
 }
